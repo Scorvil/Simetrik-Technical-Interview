@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "count": {
+            "type": "integer"
+        },
+        "next": {
+            "type": "string"
+        },
+        "previous": {
+            "type": "string"
+        },
+        "results": {
+            "type": "array",
+            "maxItems": 100
+        }
+    }
+}
